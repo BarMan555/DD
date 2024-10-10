@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(255, 237, 214); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    color: rgb(70, 39, 0)
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    border-left: 5px solid rgb(70, 39, 0);
+}
+
+.content{
+    display: flex;
+    margin: 10px 10px 0 10px;
+}
+
+.content-left{
+    width: 70%;
+    margin-right: 10px;
+    padding: 20px 30px;
+}
+.content-right{
+    width: 30%;
+    text-align: center;
+}
+
+.content-left, .content-right{
+    background-color: rgb(160, 145, 145);
+    border-radius: 10%;
+    box-shadow: 3px 3px 20px 0px rgb(160, 145, 145);
+}
+
+
+img.me{
+    width: 300px;
+    margin: 10% auto;
+    border: 3px rgb(70, 39, 0) solid;
+    border-radius: 5%;
+}
